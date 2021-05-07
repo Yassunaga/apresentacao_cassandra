@@ -2,6 +2,7 @@
 
 Este projeto contém um tutorial de instalação simples do Banco de dados Cassandra.
 
+
 ## 🔌 Instalação
 
 Utilizaremos um contêiner docker para a instalação e execução do Cassandra.
@@ -27,3 +28,11 @@ $ docker exec -it cassandra-node bash
 ```shell
 $ cqlsh
 ```
+
+### :girl: :boy: Responsáveis pelo projeto
+- Gabriel Yassunaga
+- Victória Lemos
+- Lucas Hipólito
+- Rodrigo Touriño
+- Amanda Elisa
+- Millena Moura
