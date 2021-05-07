@@ -1,6 +1,6 @@
 # Apresentação Cassandra
 
-Este projeto contém os arquivos e um tutorial de instalação e casos de uso simples do Banco de dados Cassandra.
+Este projeto contém um tutorial de instalação simples do Banco de dados Cassandra.
 
 ## 🔌 Instalação
 
@@ -18,7 +18,7 @@ $ docker pull cassandra:latest
 ```shell
 $ docker run -d --name cassandra-node -p 9842:9842 cassandra
 ```
-3. Acesse o bash do container:
+3. Acesse o bash do contêiner:
 ```shell
 $ docker exec -it cassandra-node bash
 ```
