@@ -57,6 +57,16 @@ definirá o agrupamento de tabelas que será replicado em outros DBs.
 CREATE KEYSPACE blog WITH replication = {'class': 'SimpleStrategy', 'replication_factor' : 3};
 ```
 
+Para listar os keyspaces:
+```cassandraql
+DESCRIBE keyspaces;
+```
+
+Para remover um keyspace:
+```cassandraql
+DROP KEYSPACE blog;
+```
+
 Acesse o KEYSPACE usando:
 
 ```cassandraql
