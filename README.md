@@ -176,3 +176,7 @@ UPDATE post
 ```cassandraql
 DELETE FROM post where id_post = 3;
 ```
+
+# Para saber mais
+
+Para mais informações sobre a linguagem CQL, acesse a [documentação oficial](https://cassandra.apache.org/doc/latest/cql/index.html)
